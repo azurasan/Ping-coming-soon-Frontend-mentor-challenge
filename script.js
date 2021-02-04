@@ -24,7 +24,7 @@ if(mediaQuery){
             }
         }
     });
-} else if(!mediaQuery){
+} else{
     console.log("Media Query doesn't match !");
 
     btn.addEventListener('click', (e) => {
